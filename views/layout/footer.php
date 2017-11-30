@@ -12,7 +12,20 @@
       </div>
       <div class="col">
         <h2> Follow Us </h2>
-
+        <div class="row">
+          <div class="col">
+            <span class="iconic iconic-social-facebook iconic-md" title="social facebook" aria-hidden="true"></span>
+          </div>
+          <div class="col">
+            <span class="iconic iconic-social-facebook iconic-md" title="social facebook" aria-hidden="true"></span>
+          </div>
+          <div class="col">
+            <span class="iconic iconic-social-facebook iconic-md" title="social facebook" aria-hidden="true"></span>
+          </div>
+          <div class="col">
+            <span class="iconic iconic-social-facebook iconic-md" title="social facebook" aria-hidden="true"></span>
+          </div>
+        </div>
       </div>
     </div>
   </div>

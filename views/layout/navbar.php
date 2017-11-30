@@ -10,17 +10,17 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#"><span class="oi oi-bar-chart"></span>
         SEO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PPC</a>
+        <a class="nav-link" href="#"><span class="oi oi-target"></span> PPC</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Web Design</a>
+        <a class="nav-link" href="#"><span class="oi oi-monitor"></span> Web Design</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Request A Quote</a>
+        <a class="nav-link" href="#"><span class="oi oi-pencil"></span> Request A Quote</a>
       </li>
     </ul>
   </div>
