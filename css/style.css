@@ -1,0 +1,52 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.main-banner{
+	background: url('../img/hero-image-1.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	min-height: 867px;
+	margin-top: 0px!important;
+}
+.navbar{
+	background-color: transparent!important;
+	color: black!important;
+}
+.qoute-container{
+	margin-top: 453px;
+}
+.qoute-container>h4{
+	color: white;
+}
+.qoute-container>h1{
+	font-size: 50px;
+}
+.services{
+	background-color: hsl(195, 90%, 43%);
+	color: white;
+}
+.contact{
+	min-height: 500px;
+	background: url('../img/seo-analyze-bg.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.contact-form{
+	background-color: rgb(22, 26, 34);
+	color: white;
+}
+.contact-form>div.row{
+	padding: 100px;
+}
+iframe.google-map{width: 100%;}
+.map{
+	padding:0px;
+}
+.footer-credits{
+	background-color: #293243;
+	color: white;
+}
