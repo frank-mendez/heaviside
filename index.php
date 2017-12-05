@@ -15,14 +15,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <!-- Favicon -->
     <link rel="shortcut icon" href="//staging.heavisidegroup.com/wp-content/uploads/2015/05/favicon.ico">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="css/open-iconic-bootstrap.min.css">
   </head>
   <body>
     <?php include_once( 'views/layout/navbar.php' ); ?>
@@ -34,31 +31,34 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div id="intro" class="container">
       <div class="row">
         <div class="col">
-          <h4>WE ARE A</h4>
-          <h3>Milwaukee web design company</h3>
-          <h2>that helps you get more customers.</h2>
+          <span class="small-header">WE ARE A</span>
+		  <div class="title">
+			  <h3>Milwaukee web design company</h3>
+			  <span style="font-weight: 300; color: #292624">that helps you </span>
+			  <span style="color: #0b9ed0; font-weight: 700;">get more customers.</h2>
+		  </div>
         </div>
-        <div class="col">
+        <div class="col intro-list">
           <ul>
             <li>You don’t need an expensive brochure that no one sees.</li>
             <li> You need your website working 24/7 to help your customers find you.</li>
           </ul>
         </div>
       </div>
-      <div class="row">
+      <div class="row expertise">
         <div class="col">
-          <img src="img/image-1.png">
+          <img src="img/image-1.png" class="box-shadow">
         </div>
-        <div class="col">
-          <img src="img/expertise-2017-1-1.png">
-          <img src="img/expertise-2016-1-1.png">
+        <div class="col circular-img">
+          <img src="img/expertise-2017-1-1.png" class="box-shadow">
+          <img src="img/expertise-2016-1-1.png" class="box-shadow">
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col text-justify">
           <p>WHAT WE DO</p>
           <h2>Milwaukee Digital Marketing That Works</h2>
           <p>
@@ -72,12 +72,12 @@
           </p>
         </div>
         <div class="col">
-          <img src="img/image-2.jpg">
+          <img src="img/image-2.jpg" class="request-a-quote-img">
           <h3>Request a qoute | Call Us</h3>
         </div>
       </div>
     </div>
-    <div class="container-fluid services">
+    <div class="container-fluid services text-justify">
       <div class="container">
         <div class="row">
           <div class="col-5">
@@ -87,28 +87,34 @@
               Our core practice is helping clients with Milwaukee web design, SEO, and AdWords services. Our goal? To send you a constant stream of new customers. We’re going to learn about the business results you want, and then we’re going to go get it done.
             </p>
           </div>
-          <div class="col">
-            <img src="img/icon-1.png">
-            <p>WEB DESIGN</p>
-          </div>
-          <div class="col">
-            <img src="img/icon-2.png">
-            <p>SEO</p>
-          </div>
-          <div class="col">
-            <img src="img/icon-3.png">
-            <p>PAID SEARCH ADS</p>
-          </div>
-          <div class="col">
-            <img src="img/icon-4.png">
-            <p>SOCIAL ADS</p>
-          </div>
+		  <!--end of Our Services description -->
+		  
+			  <div class="col"></div>
+			  <div class="col">	<!-- needs tooptimize -->
+				<img src="img/icon-1.png" >
+				<p class="text-center">WEB DESIGN</p>
+			  </div>
+			  <div class="col">
+				<img src="img/icon-2.png" >
+				<p class="text-center">SEO</p>
+			  </div>
+			  <div class="col">
+				<img src="img/icon-3.png">
+				<p class="text-center">PAID SEARCH ADS</p>
+			  </div>
+			  <div class="col">
+				<img src="img/icon-4.png">
+				<p class="text-center">SOCIAL ADS</p>
+			  </div>
+		  
+		
+		
         </div>
       </div>
     </div>
     <div class="container-fluid contact">
       <div class="container">
-        <div class="row">
+        <div id="analyze-seo" class="row">
           <div class="col-5">
             <img src="img/left.png">
           </div>
@@ -117,7 +123,7 @@
             <p>Enter your website address below to get a full, in-depth SEO report and SEO tips.</p>
             <form class="form-inline">
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1">
               </div>
               <button type="submit" class="btn btn-primary">Analyze Now</button>
             </form>
@@ -126,7 +132,7 @@
       </div>
     </div>
     <div class="container contact-form">
-      <div class="row">
+      <div class="row ">
         <div class="col">
           <h2>The Heaviside Difference</h2>
           <p>
@@ -192,18 +198,18 @@
       </div>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row footer">
         <div class="col">
-          <img src="img/google-partner.jpg">
+          <img src="img/google-partner.jpg" class="img-responsive">
         </div>
         <div class="col">
-          <img src="img/best-in-search.jpg">
+          <img src="img/best-in-search.jpg" class="img-responsive">
         </div>
         <div class="col">
-          <img src="img/top-agency.jpg">
+          <img src="img/top-agency.jpg" class="img-responsive">
         </div>
         <div class="col">
-          <img src="img/bing-ads.jpg">
+          <img src="img/bing-ads.jpg" class="img-responsive">
         </div>
       </div>
     </div>
@@ -214,9 +220,8 @@
     <?php include_once( 'views/layout/footer.php' ); ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>

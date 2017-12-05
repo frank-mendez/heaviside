@@ -1,6 +1,12 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+body, p {
 	font-family: 'Roboto', sans-serif;
+	
 }
+
+
 .main-banner{
 	background: url('../img/hero-image-1.jpg') no-repeat center center;
 	-webkit-background-size: cover;
@@ -26,6 +32,18 @@ body{
 .services{
 	background-color: hsl(195, 90%, 43%);
 	color: white;
+	
+	padding: 100px 0;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.services img{
+	display: block;
+	margin: auto;
+}
+.featured-services{
+	padding-top: 30px;
 }
 .contact{
 	min-height: 500px;
@@ -38,6 +56,7 @@ body{
 .contact-form{
 	background-color: rgb(22, 26, 34);
 	color: white;
+	margin-top: -100px;
 }
 .contact-form>div.row{
 	padding: 100px;
@@ -50,3 +69,75 @@ iframe.google-map{width: 100%;}
 	background-color: #293243;
 	color: white;
 }
+
+.footer img{
+	display: block;
+	margin: 0 auto;
+	
+}
+.footer{
+	
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-header{
+	color: #0b9ed0;
+	font-size: 16px;
+}
+
+.title{
+	color: #100e53;
+	font-family: 'Raleway',sans-serif;
+	font-size: 26px;
+	line-height: 0.5em;
+}
+
+#intro{
+	
+	padding: 80px 0;
+}
+
+.intro-list{
+	
+	padding-top: 30px;
+}
+
+.expertise{
+	padding-top: 120px;
+}
+
+.box-shadow{
+	box-shadow: 5px 10px 20px #c1c1c1;
+	display: block;
+}
+.circular-img img{
+	display: block;
+	border-radius: 50%;
+	margin-left: -30%;
+	
+}
+
+.circular-img img:first-child{
+	margin-bottom: 10px;
+}
+
+.circular-img img:first-child, .request-a-quote-img{
+	margin-top: -20%;
+}
+
+#analyze-seo{
+	padding: 100px 0;
+}
+
+.section-padding{
+ padding: 35px 0;
+}
+
+.heaviside-difference{
+	background-color: rgb(22, 26, 34);
+}
+
+/** default color: 292624 **/
