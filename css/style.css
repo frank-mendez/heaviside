@@ -77,10 +77,10 @@ iframe.google-map{width: 100%;}
 }
 .footer{
 	
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /*height: 40vh;*/
+  /*display: flex;*/
+  /*align-items: center;
+  justify-content: center;*/
 }
 
 .small-header{
