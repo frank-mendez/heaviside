@@ -1,8 +1,9 @@
 (function($){
     var url = window.location.href;
     var lastURL = url.split(/[/ ]+/).pop();
+    console.log('lastURL', lastURL);
     
-	if(lastURL == 'index.php' || lastURL == '') {
+	if(lastURL == 'index' || lastURL == '') {
         $(window).scroll(function () { 
 
             if ($(window).scrollTop() > 867) {

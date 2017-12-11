@@ -5,17 +5,17 @@
 
 <nav id="navbar" class="navbar 
   <?php 
-    if($last == 'index.php' || $last == '') {
+    if($last == 'index' || $last == '') {
      echo 'navbar-default'; 
     } else {
       echo 'navbar-alt';
     } 
   ?> navbar-expand-lg navbar-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="index.php">
+    <a class="navbar-brand" href="index">
     <img id="logo" 
     <?php 
-      if( $last == 'index.php' || $last == '' ) {
+      if( $last == 'index' || $last == '' ) {
         echo "src='img/logo-transparent.png'";
       } else {
         echo "src='img/logo-black.png'";
@@ -33,7 +33,7 @@
         SEO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ppc.php">PPC</a>
+        <a class="nav-link" href="ppc">PPC</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Web Design</a>
