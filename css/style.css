@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6{
 	min-height: 867px;
 	margin-top: 0px!important;
 }
-.navbar{
+.navbar-default{
 	background-color: transparent!important;
 	color: black!important;
 }
@@ -289,4 +289,93 @@ a.gplus:hover{
 .subfooter .list-inline li:not(:first-child):before{
 	content: "|";
 	vertical-align: middle;
+}
+
+/* Custom styles */
+.no-padding{
+	padding: 0px;
+}
+.margin-top-fifty{
+	margin-top: 50px;
+}
+.margin-bottom-fifty{
+	margin-bottom: 50px;
+}
+.margin-top-onehundred{
+	margin-top: 100px;
+}
+.margin-fifty{
+	margin:50px;
+}
+.center{
+	text-align: center;
+}
+.justify{
+	text-align: justify;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+/* Custom colors; */
+.white{
+	color: white;
+}
+
+/* Alternate Navbar */
+.navbar-alt{
+	background-color: white!important;
+	border-bottom: 1px solid #80808033;
+}
+.navbar-alt .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: grey;
+}
+
+.navbar-alt .navbar-nav .nav-link {
+    color: grey;
+}
+
+.navbar-alt .navbar-nav .nav-link:hover {
+    color: grey;
+}
+
+/* About Us Page */
+#about{
+	margin-top: 100px!important;
+	background-color: #ffffff;
+}
+.chris{
+	color: white;
+	box-shadow: 5px 10px 20px #c1c1c1;
+    background-color: hsl(219, 24%, 21%);
+    padding: 40px;
+}
+
+.chris > p{
+	color: white;
+}
+
+/* PPC Page */
+.experts{
+	padding: 45px;
+    background-color: hsl(177, 51%, 57%);
+}
+
+.facebook-ads{
+	padding: 100px 0px 100px;
+    background-color: hsl(219, 24%, 21%);
+}
+
+.facebook-ads p{
+	color: white;
+}
+/* Pricing Page */
+.highlight{
+	color: #59c9c3;
+    font-weight: bold;
+}
+.pricing{
+	padding: 100px;
 }

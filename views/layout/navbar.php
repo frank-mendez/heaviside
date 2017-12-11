@@ -1,7 +1,26 @@
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<?php 
+  $uri = $_SERVER['REQUEST_URI'];
+  $last = substr($uri, strrpos($uri, '/') + 1);
+?>
+
+<nav id="navbar" class="navbar 
+  <?php 
+    if($last == 'index.php' || $last == '') {
+     echo 'navbar-default'; 
+    } else {
+      echo 'navbar-alt';
+    } 
+  ?> navbar-expand-lg navbar-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
-    <img id="logo" src="img/logo-transparent.png" width="50%" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" href="index.php">
+    <img id="logo" 
+    <?php 
+      if( $last == 'index.php' || $last == '' ) {
+        echo "src='img/logo-transparent.png'";
+      } else {
+        echo "src='img/logo-black.png'";
+      }
+    ?> width="50%" class="d-inline-block align-top" alt="">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -14,7 +33,7 @@
         SEO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PPC</a>
+        <a class="nav-link" href="ppc.php">PPC</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Web Design</a>

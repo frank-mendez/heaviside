@@ -1,3 +1,25 @@
+<div class="container margin-top-fifty margin-bottom-fifty">
+  <div class="row footer">
+    <div class="col">
+      <!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<div class="g-partnersbadge" data-agency-id="7043437600"></div>
+    </div>
+    <div class="col">
+      <img src="img/best-in-search.jpg" class="img-responsive">
+    </div>
+    <div class="col">
+      <img src="img/top-agency.jpg" class="img-responsive">
+    </div>
+    <div class="col">
+      <img src="img/bing-ads.jpg" class="img-responsive">
+    </div>
+  </div>
+</div>
+<div class="container-fluid map">
+  <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46622.78942101801!2d-88.176884!3d43.085086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc16ebae9704f3d41!2sHeaviside+Group+-+Milwaukee+Web+Design!5e0!3m2!1sen!2sus!4v1511261964902"  height="400" frameborder="0" style="border:0" allowfullscreen="">
+  </iframe>
+</div>
 <div class="footer">
   <div class="container">
    	<div class="row">
@@ -70,3 +92,11 @@
 		</div>
 	</div>
 </div>
+
+<!-- Scripts -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="js/custom.js" type="text/javascript"></script>
