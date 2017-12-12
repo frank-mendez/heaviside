@@ -21,3 +21,4 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
+<div class="preloader"></div>

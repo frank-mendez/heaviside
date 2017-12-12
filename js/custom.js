@@ -1,10 +1,11 @@
 (function($){
 
+    
     $(window).on('load', function() {
         $('.preloader').delay(500).fadeOut('slow');
             $('body').delay(500).css({'overflow':'visible'});
     });
-    
+
     var url = window.location.href;
     var lastURL = url.split(/[/ ]+/).pop();
     console.log('lastURL', lastURL);

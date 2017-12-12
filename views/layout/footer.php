@@ -93,7 +93,7 @@
 	</div>
 </div>
 <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-<div class="preloader"></div>
+
 <!-- Scripts -->
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
