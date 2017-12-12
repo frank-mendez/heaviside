@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <?php include_once( 'views/layout/header.php' ); ?>
-  <body>
+  <body data-spy="scroll">
     <?php include_once( 'views/layout/navbar.php' ); ?>
     <!-- Content Here -->
   

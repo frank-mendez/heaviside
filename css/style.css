@@ -325,6 +325,12 @@ a.gplus:hover{
 .right{
 	text-align: right;
 }
+a:hover{
+	color: white;
+}
+a:focus{
+	color: white;
+}
 /* Custom colors; */
 .white{
 	color: white;

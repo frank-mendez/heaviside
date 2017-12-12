@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col white center">
-            <h4><b>Want proof before reading on?</b> Check out some of our results below!</h4>
+            <h4><b>Want proof before reading on?</b> <a class="white" href="#results">Check out some of our results below!</a></h4>
           </div>
         </div>
       </div>
@@ -87,7 +87,8 @@
     			<img class="img-fluid" src="img/500LOGO_2016_PARS_cropped.jpg">
     		</div>
     	</div>
-    	<div class="row">
+        <div id="results"></div>
+    	<div class="row margin-top-onehundred">
     		<div class="col center">
     			<h2>SEO RESULTS</h2>
     			<p>Here are just a few results from some of our clients, there are many, many, more. Ask us — we’ll show you.</p>
