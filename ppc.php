@@ -34,6 +34,9 @@
             There are numerous ways to do it wrong. Fortunately, there is a very clear set of best-practices that drastically minimize your risk and allow a profitable campaign to be built safely. Don’t take the risk, hire Brookfield web design and pay per click management experts to get the job done right.
           </p>
         </div>
+        <div class="col">
+          <img src="img/pcc.jpg">
+        </div>
       </div>
     </div>
     <div class="container-fluid experts margin-top-fifty">

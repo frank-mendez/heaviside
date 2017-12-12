@@ -382,3 +382,16 @@ a.gplus:hover{
 .pricing{
 	padding: 100px;
 }
+/* SEO Page */
+.carousel-seo {
+	background: #fafafa;
+    border-radius: 20px;
+    padding: 30px;
+    border-left: solid 10px grey;
+	border-right: solid 10px grey;
+    border-top: 30px solid grey;
+	border-bottom: 30px solid grey;
+}
+.carousel{
+	background: #0000004a;
+}

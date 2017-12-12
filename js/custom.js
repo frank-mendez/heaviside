@@ -2,6 +2,8 @@
     var url = window.location.href;
     var lastURL = url.split(/[/ ]+/).pop();
     console.log('lastURL', lastURL);
+
+    $('.carousel').carousel();
     
 	if(lastURL == 'index' || lastURL == '') {
         $(window).scroll(function () { 
