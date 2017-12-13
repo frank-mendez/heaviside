@@ -358,33 +358,6 @@ a:focus{
 	margin-top: 100px!important;
 	background-color: #ffffff;
 }
-
-img.about-us-icons{
-	border-radius: 50%;
-	box-shadow: 0px 5px 20px #c1c1c1;
-}
-
-#about p{
-	font-weight: 300;
-}
-
-.about-us-sidebar p{
-	font-size: 14px;
-}
-
-.about-us-sidebar span{
-	font-weight: bold;
-}
-
-span.feature-service-highlight{
-	color: #5ac7c1;
-	font-weight: bold;
-}
-
-.about-us-sidebar{
-	padding: 30px 0;
-}
-
 .chris{
 	color: white;
 	box-shadow: 5px 10px 20px #c1c1c1;
@@ -392,25 +365,8 @@ span.feature-service-highlight{
     padding: 40px;
 }
 
-.chris h6{
-	font-style: italic;
-	font-weight: 300;
-}
-
-#about .chris > p{
+.chris > p{
 	color: white;
-	font-weight: normal;
-}
-
-.chris p:not(:first-of-type){
-	width: 80%;
-}
-
-.founder img{
-	box-shadow: 8px 10px 20px #c1c1c1;
-	position: absolute;
-    left: -30%;
-    bottom: -10%;
 }
 
 /* PPC Page */
