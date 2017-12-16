@@ -44,16 +44,16 @@
 				<h6> Follow Us </h6>
 				<div class="row social-icons">
 					<div class="col">	
-						<a href="#" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/HeavisideGroup" target="_blank" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 					</div>
 					<div class="col">
-						<a href="#" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/HeavisideGroup" target="_blank" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					</div>
 					<div class="col">
-						<a href="#" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						<a href="https://plus.google.com/+HeavisidegroupWI" target="_blank" class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 					</div>
 					<div class="col">
-						<a href="#" class="gplus"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/company/heaviside-group" target="_blank" class="gplus"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
