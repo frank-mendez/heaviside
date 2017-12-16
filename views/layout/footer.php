@@ -30,7 +30,7 @@
 				<div class="row">
 					<div class="col">	
 						<span>Address</span>
-						<p>21275 GUMINA RD STE 200 , BROOKFIELD, WI 53072</p>
+						<p>21275 GUMINA RD STE 200, BROOKFIELD, WI 53072</p>
 					</div>
 					<div class="col">	
 						
