@@ -59,7 +59,7 @@
 			<div class="col-md-6 title-padding">
 				<img src="img/image-2.jpg" class="request-a-quote-img">
 				
-				<h3 class="custom-heading">Request a qoute </h3><h3 style="display: inline-block">&nbsp;| Call Us</h3>
+				<h3 class="custom-heading">Request a quote </h3><h3 style="display: inline-block">&nbsp;| Call Us</h3>
 
 				<div class="learn-more">
 					<a href="#">Learn More</a>
