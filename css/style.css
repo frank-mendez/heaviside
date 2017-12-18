@@ -491,3 +491,9 @@ span.feature-service-highlight{
   background-repeat: no-repeat;
   background-image: url('../img/44frgm.gif');
 }
+
+/* Google Map */
+#map {
+	height: 400px!important;
+	width: 100%!important;
+}

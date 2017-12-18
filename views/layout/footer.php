@@ -16,10 +16,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid map">
-  <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46622.78942101801!2d-88.176884!3d43.085086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc16ebae9704f3d41!2sHeaviside+Group+-+Milwaukee+Web+Design!5e0!3m2!1sen!2sus!4v1511261964902"  height="400" frameborder="0" style="border:0" allowfullscreen="">
-  </iframe>
-</div>
+<div id="map"></div>
 <div class="footer">
   <div class="container">
    	<div class="row">
@@ -101,3 +98,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="js/custom.js" type="text/javascript"></script>
+<script>
+  function initMap() {
+    var uluru = {lat: 43.0850707, lng: -88.1769901};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 14,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?language=en-US&key=AIzaSyCH1psTOmiDbdznArM5gd83laziP9e69Xc&callback=initMap">
+    </script>
